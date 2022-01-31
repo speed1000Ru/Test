@@ -369,6 +369,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.СписокНоменклатуры.Сумма</segments>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>СписокНоменклатурыКоличествоПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>СписокНоменклатурыСуммаРасширеннаяПодсказка</name>
         <id>40</id>
