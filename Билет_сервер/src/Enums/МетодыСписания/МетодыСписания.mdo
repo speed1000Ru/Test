@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5a1a35e-aa34-4919-8305-5d044132039d">
+  <producedTypes>
+    <refType typeId="d960c505-17ae-4d17-ad9a-825224ae9e94" valueTypeId="e8ce7e0e-c662-4742-b95b-656662277ea1"/>
+    <listType typeId="79192974-fdfe-4e2d-ba13-cd4f6063075f" valueTypeId="54309c61-b808-45ad-8ff5-a5b7aaddea20"/>
+    <managerType typeId="fd519871-9942-48fd-8da9-caa9f8ad07cd" valueTypeId="c63e14ab-ff83-4439-83b1-f55310ef328c"/>
+  </producedTypes>
+  <name>МетодыСписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методы списания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="725243cb-b79d-4c46-b719-f5baf775aadf">
+    <name>ПоСредней</name>
+    <synonym>
+      <key>ru</key>
+      <value>По средней</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a0545995-b77e-453b-bacb-6be70b9aed2e">
+    <name>ФИФО</name>
+    <synonym>
+      <key>ru</key>
+      <value>FIFO</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

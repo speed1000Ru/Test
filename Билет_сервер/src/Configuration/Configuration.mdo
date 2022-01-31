@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc7495ad-432e-4f59-8fab-94750b9a56d8">
+  <name>Билет_3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Билет 3 (1С:Специалист по платформе 8.3)</value>
+  </synonym>
+  <comment>Каркасная конфигурация 21.01.2014</comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="cd84adeb-60ef-4bc7-b819-604ae4ddb6b8"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="cf5fb0da-9609-48ee-8eda-f312c60d20ae"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="43aa8a39-87ac-4263-8484-f2c53d22cb95"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="c699049d-bfda-4031-a557-e6f83fbe159f"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c14cabea-650d-477f-9c8e-f3eebf5bbaea"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="ccd47429-cf38-4940-a343-79b9a4501f27"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="db66f47d-05f6-4d30-be44-8a2a80258378"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ПолныеПрава</defaultRoles>
+  <vendor>УЦ №1</vendor>
+  <version>1.0.0.2</version>
+  <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Каркасная конфигурация к экзамену</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Каркасная конфигурация для сдачи экзамена &quot;1С:Специалист&quot; по платформе &quot;1С:Предприятие 8&quot;</value>
+  </detailedInformation>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <languages uuid="10b9378a-5510-473e-8091-72ddd12904f7">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ОперативныйУчет</subsystems>
+  <subsystems>Subsystem.БухгалтерскийУчет</subsystems>
+  <subsystems>Subsystem.Расчеты</subsystems>
+  <subsystems>Subsystem.Сервис</subsystems>
+  <commonPictures>CommonPicture.ОперативныйУчет</commonPictures>
+  <commonPictures>CommonPicture.БухгалтерскийУчет</commonPictures>
+  <commonPictures>CommonPicture.Расчеты</commonPictures>
+  <commonPictures>CommonPicture.БизнесПроцессы</commonPictures>
+  <commonPictures>CommonPicture.Сервис</commonPictures>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.НеПолныеПрава</roles>
+  <commonModules>CommonModule.Расчет</commonModules>
+  <constants>Constant.НазваниеОрганизации</constants>
+  <constants>Constant.ЮридическийАдрес</constants>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.ЗначенияСвойств</catalogs>
+  <catalogs>Catalog.Субконто</catalogs>
+  <catalogs>Catalog.Договоры</catalogs>
+  <catalogs>Catalog.Графики</catalogs>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <documents>Document.РасходнаяНакладная</documents>
+  <documents>Document.НачислениеЗарплаты</documents>
+  <documents>Document.ИзменениеУчетнойПолитики</documents>
+  <documents>Document.ПриходДенег</documents>
+  <documents>Document.Операция</documents>
+  <documents>Document.КорректировкаЗадолженности</documents>
+  <documents>Document.Документ1</documents>
+  <enums>Enum.МетодыСписания</enums>
+  <enums>Enum.ВидыНоменклатуры</enums>
+  <enums>Enum.ПолФизическихЛиц</enums>
+  <reports>Report.ДвиженияТовара</reports>
+  <reports>Report.Взаиморасчеты</reports>
+  <reports>Report.АнализНачислений</reports>
+  <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
+  <dataProcessors>DataProcessor.ЗаполнениеГрафика</dataProcessors>
+  <informationRegisters>InformationRegister.РегистрАдресации</informationRegisters>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.ГрафикиРаботы</informationRegisters>
+  <informationRegisters>InformationRegister.СведенияОСотрудниках</informationRegisters>
+  <informationRegisters>InformationRegister.УчетнаяПолитика</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваОбъектов</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
+  <chartsOfAccounts>ChartOfAccounts.Управленческий</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.Управленческий</accountingRegisters>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</chartsOfCalculationTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.ДополнительныеНачисления</chartsOfCalculationTypes>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.Удержания</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.ОсновныеНачисления</calculationRegisters>
+</mdclass:Configuration>

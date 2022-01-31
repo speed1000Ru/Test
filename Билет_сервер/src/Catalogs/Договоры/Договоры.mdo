@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64b48ece-5976-4f14-ac0d-c3f22a9a715f">
+  <producedTypes>
+    <objectType typeId="fc85854e-2e4f-4f4f-8be6-f79960e64e8e" valueTypeId="c5c94991-1522-4760-b695-a2fb6cded631"/>
+    <refType typeId="12b6ab0f-2ce9-4afa-ab08-658b3067c144" valueTypeId="e3a27929-e294-4ba1-add1-18ddf503f118"/>
+    <selectionType typeId="ea2424f5-3189-450f-802d-031e8355d8df" valueTypeId="8cfb164a-f376-4ed7-a704-0a89d60f3f49"/>
+    <listType typeId="d7c04b27-2574-4b21-8d2d-fbbc01a21431" valueTypeId="c5526c5a-4cf8-42bd-bd8e-521fbd89cd45"/>
+    <managerType typeId="5ff5c464-3a99-4d63-b050-e0b105c9deac" valueTypeId="c2ebdf60-c306-40c1-9202-ee9503f317ff"/>
+  </producedTypes>
+  <name>Договоры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Договоры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Договоры.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Договоры.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Контрагенты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="840a210f-0c27-4ad1-97a5-8eb58a05841f">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

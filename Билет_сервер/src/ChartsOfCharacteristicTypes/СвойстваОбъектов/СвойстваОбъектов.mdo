@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c6cdac6-23d8-4d4c-b3da-9a20f3a6b5be">
+  <producedTypes>
+    <objectType typeId="0f3dedac-4e32-4ba4-a3bb-a106dfb311ce" valueTypeId="59c6f1f6-8f0b-4139-b765-10b1a8f33ce7"/>
+    <refType typeId="5a1c0e45-c0be-4cd7-8a29-1a35aac86df1" valueTypeId="73600bd1-7458-441f-ae2b-2d9f35425d3e"/>
+    <selectionType typeId="c61d0bdb-f58a-4a7c-90dc-5372020cbf3d" valueTypeId="6e53dc71-6094-4640-99fe-cfb738f3b691"/>
+    <listType typeId="3cb57d92-cb28-475c-b17b-d8a8d26ec5b1" valueTypeId="9f8575a5-d73c-44b2-ac89-66ae8b49e02b"/>
+    <managerType typeId="04b8c8ba-81a4-421a-a1cc-d46860c75fe0" valueTypeId="4d6cb79b-f482-42aa-be31-3eba9cf78f2a"/>
+    <containerType typeId="1768352a-649e-483e-ab65-e88b396e2b1c" valueTypeId="f332bf67-7e61-49a7-9a56-e73a45a2d52b"/>
+  </producedTypes>
+  <name>СвойстваОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свойства объектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.СвойстваОбъектов.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.СвойстваОбъектов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

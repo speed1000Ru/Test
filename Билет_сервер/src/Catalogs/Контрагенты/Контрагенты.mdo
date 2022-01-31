@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5d1d69b-c1e1-4f2a-a961-d7930f0c8f6a">
+  <producedTypes>
+    <objectType typeId="2160f1c7-3cd7-40f9-8963-dcf84fbe8506" valueTypeId="b85c9a15-6bed-4b35-84c9-264021302b73"/>
+    <refType typeId="324d009a-f1e5-4a53-a4a5-98b71027dba9" valueTypeId="263b9a54-6305-48e2-8759-63d9619f3cfb"/>
+    <selectionType typeId="96a6ec0b-27c9-49bc-af3e-63a29dcca6be" valueTypeId="26022bad-b43d-4a50-965a-a34591d28d6c"/>
+    <listType typeId="84210437-4661-4f9e-a87c-a6a7aa02c935" valueTypeId="d7b871c4-cdce-4e0b-8215-8a4cc8a32747"/>
+    <managerType typeId="c51637a6-1885-43d3-a0fb-18d2be223cae" valueTypeId="734120a5-c884-4299-a94d-caf171d088f4"/>
+  </producedTypes>
+  <name>Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="f47d7e11-13ff-4f31-ae0e-5179592a98cd">
+      <name>Покупатели</name>
+      <description>Покупатели</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="4340ba4a-9153-48cd-b2df-3c97c078342e">
+      <name>Поставщики</name>
+      <description>Поставщики</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <commands uuid="dc4a6e97-8b3c-4909-b748-cbc0817c1216">
+    <name>ДвиженияБУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Движения БУ</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Контрагенты</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

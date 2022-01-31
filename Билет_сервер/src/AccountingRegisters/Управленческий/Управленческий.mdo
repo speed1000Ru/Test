@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2432a4e5-b89d-461d-aad5-f5fd4e2ba970">
+  <producedTypes>
+    <selectionType typeId="b11b9cb0-fc2e-41b0-a942-8c580be790e9" valueTypeId="b1bed798-bc3e-44cc-a4c2-40dcf8197fe9"/>
+    <listType typeId="8e2a5758-15bc-4190-9894-67d83bc15d6f" valueTypeId="7646b927-5bec-4bad-9f66-be0b59d11465"/>
+    <managerType typeId="93ba5f47-b92c-4353-8201-204ec3988f19" valueTypeId="83e08900-6956-4803-8e41-87e00c96daa5"/>
+    <recordSetType typeId="d349112c-8c0f-4042-a086-d45c02377c3f" valueTypeId="4ad61f7c-ceb1-497c-ba6b-c127d9a26988"/>
+    <recordKeyType typeId="368d8b01-d5b2-44c5-9fdc-7f164e2f8c18" valueTypeId="414033a1-922b-444b-947b-fd2f41534c1d"/>
+    <recordType typeId="c6947776-2fe1-40d4-bad2-1d598d50913a" valueTypeId="37315d70-39ef-4db3-9022-ba47a85815f3"/>
+    <extDimensionsType typeId="566a986a-e1b5-4e6a-9a1a-2accc105fe5b" valueTypeId="257be8a5-4794-4bee-b72c-ff58274a4198"/>
+  </producedTypes>
+  <name>Управленческий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управленческий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <chartOfAccounts>ChartOfAccounts.Управленческий</chartOfAccounts>
+  <correspondence>true</correspondence>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="b50ab678-4b06-467a-a4b4-3744b97e7fac">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <balance>true</balance>
+  </resources>
+  <resources uuid="9358c05e-d536-4389-8af3-2818f9fa5d02">
+    <name>СуммаВалютная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма валютная</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <accountingFlag>ChartOfAccounts.Управленческий.AccountingFlag.Валютный</accountingFlag>
+  </resources>
+  <forms uuid="cee6cc9b-210d-4a72-bc18-9ff90a9637b4">
+    <name>ФормаСпискаДвиженияКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка движения контрагента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccountingRegister>

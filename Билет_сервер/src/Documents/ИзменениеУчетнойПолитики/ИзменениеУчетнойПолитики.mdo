@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2dc0ea83-bb76-48da-accf-70c60c3a3b1a">
+  <producedTypes>
+    <objectType typeId="5581ff37-5f47-45d1-a15b-86dd4ce87cbc" valueTypeId="272106bb-9146-4bfd-96ab-02065caf9fc5"/>
+    <refType typeId="b6c9e2da-928a-45a3-a7b7-b333d177debd" valueTypeId="2d2bddff-634b-463f-90be-8cd45435c041"/>
+    <selectionType typeId="7592ac99-c8be-47bc-95b6-4823c9286aeb" valueTypeId="0ccd260b-3cca-4738-be77-7a8283b5387b"/>
+    <listType typeId="5c3be329-4de4-4775-b26f-f623c43bb048" valueTypeId="65ac573e-8e4b-483d-82c4-77dab659b645"/>
+    <managerType typeId="81c68552-d327-495f-a2df-68e672964d96" valueTypeId="60bc7f82-9881-45f5-8ed1-148a681caa67"/>
+  </producedTypes>
+  <name>ИзменениеУчетнойПолитики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение учетной политики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ИзменениеУчетнойПолитики.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ИзменениеУчетнойПолитики.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.УчетнаяПолитика</registerRecords>
+  <registerRecords>AccumulationRegister.ОстаткиНоменклатуры</registerRecords>
+  <attributes uuid="ebdce3c9-c77e-4302-9e0c-fab18dae7a38">
+    <name>МетодСписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод списания</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МетодыСписания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f2804055-0306-4d33-8eef-5483f6ce49ff">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>

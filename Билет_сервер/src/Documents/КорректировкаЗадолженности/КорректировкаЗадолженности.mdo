@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfb5e35a-021b-47a9-ab0a-313c166c489f">
+  <producedTypes>
+    <objectType typeId="3fb07b7e-35ba-4811-93f3-f7a96a8688a0" valueTypeId="8904fdad-6a46-4cb6-8a2e-9240e8528517"/>
+    <refType typeId="3316720d-8d58-4eb2-b125-7e5a55157bc2" valueTypeId="7749b1bf-9a64-4f0c-a572-1f16457b7e2f"/>
+    <selectionType typeId="c6d41b4f-caa0-4bf6-8788-4e810a467fab" valueTypeId="b5b96de1-bdd6-404c-b58d-3d3925517061"/>
+    <listType typeId="7410aa14-f67e-4f03-9792-f9cc92a728dc" valueTypeId="e040a5c3-a5e0-448c-bc92-0cd63babf118"/>
+    <managerType typeId="1a9573d7-2e94-41d6-bd59-8443555ef3e5" valueTypeId="37eda5be-958a-42db-98d3-bdb21510d7e9"/>
+  </producedTypes>
+  <name>КорректировкаЗадолженности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корректировка задолженности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КорректировкаЗадолженности.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.КорректировкаЗадолженности.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccountingRegister.Управленческий</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="0d11f3b2-25aa-44eb-939c-4d75797d7747">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>
